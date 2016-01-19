@@ -34,6 +34,7 @@
 *.png
 *.ints
 *.orthog
+*.sparse
 
 #mac osx thing
 .DS_Store
