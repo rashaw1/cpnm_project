@@ -1,0 +1,25 @@
+CANONICAL ORTHOGONALISATION RESULTS
+
+BASIS FUNCTIONS
+        Zeta        Norm           x           y          z
+............................................................
+         0.4      0.3585           0           0           0
+         0.4      0.3585           1           0           0
+         0.4      0.3585           4           0           0
+
+
+FUNCTION SPECIFICATION
+FUNCTION 1 COEFFICIENTS:
+-1.68
+1.712
+-0.2591
+
+FUNCTION 2 COEFFICIENTS:
+0.1984
+0.04533
+-0.9872
+
+FUNCTION 3 COEFFICIENTS:
+0.5083
+0.5177
+0.1259
