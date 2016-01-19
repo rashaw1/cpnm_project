@@ -30,6 +30,11 @@
 #temp files
 *~
 
+#images
+*.png
+*.ints
+*.orthog
+
 #mac osx thing
 .DS_Store
 
