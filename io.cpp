@@ -167,7 +167,7 @@ void addAtomType(std::ifstream& in, System& sys, std::string atomtype_,
 				// Read the geometry and add a basis function to sys
 				line.erase(0, pos+1);
 				pos = line.find(',');
-				x = std::stod(line.substr(0, pos-1));
+				x = std::stod(line.substr(0, pos));
 				line.erase(0, pos+1);
 				pos = line.find(',');
 				y = std::stod(line.substr(0, pos));
@@ -313,7 +313,7 @@ void printSystem(const System& sys, std::ofstream& out, bool printBasis)
 {
 	int N = sys.getN();
 	out << "\nThis system has " << N << " basis functions\n"
-		<< "It's sparsity is: " << sys.sparsity() << " percent\n"
+		<< "Its sparsity is: " << sys.sparsity() << " percent\n"
 		<< "with a threshold of " << sys.getThreshold() << "\n\n"
 		<< "That is equivalent to " << sys.getZeroes()
 		<< " zeroes out of " << (N*(N+1))/2 << " possible unique integrals.\n\n";
